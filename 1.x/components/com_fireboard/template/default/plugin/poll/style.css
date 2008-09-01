@@ -1,0 +1,62 @@
+/* Fireboard Poll System CSS */
+
+table#toolbar {
+	margin: 3px 10px;
+}
+table#toolbar a.toolbar {
+	color : #808080;
+	text-decoration : none;
+	display: block;
+	border: 1px solid #DDD;
+	width: 35px;
+	padding: 2px 1px 2px 1px;
+}
+table#toolbar a.toolbar:hover {
+	color : #C64934;
+	border: 1px solid #c24733;
+	background-color: #f1e8e6;
+	padding: 3px 0px 1px 2px;
+}
+table#toolbar a.toolbar:active {
+	color : #FF9900;
+}
+table.fbstat {
+	background-color:#FFFFFF;
+	border:1px solid #ddd;
+	padding:1px;
+	width:80%;
+}
+table.fbstat th {
+	background:#EEE;
+	border-bottom:1px solid #CCC;
+	border-top:1px solid #EEE;
+	color:#666;
+	font-size:11px;
+	padding:3px 4px;
+	text-align:left;
+}
+table.fbstat td {
+	font-size:11px;
+	line-height:140%;
+	padding:4px;
+}
+table.fbstat caption {
+	clear:both;
+	font-size:14px;
+	font-weight:bold;
+	margin:10px 0 2px 0;
+	padding:2px;
+	text-align:left;
+}
+table.fbstat .col1 {
+	background-color:#F1F3F5;
+	text-align:left;
+}
+table.fbstat .col2 {
+	background-color: #FBFBFB;
+	text-align:left;
+}
+table.fbstat .col3 {
+	background-color:#F1F3F5;
+	text-align:right;
+}
